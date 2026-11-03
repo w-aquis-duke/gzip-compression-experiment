@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+# Downloaded books and generated compressed copies can be reproduced from scripts.
+data/raw/*
+data/compressed/level_1/*
+data/compressed/level_9/*
+# Keep source manifests, processed data, results, reports, and slides tracked.
