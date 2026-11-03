@@ -1,0 +1,28 @@
+Gzip level 1 versus level 9
+Books: 50
+Significance level: 0.05 (two-sided)
+
+Mean level 1 size: 43.98% of original
+Mean level 9 size: 37.32% of original
+Mean difference: 6.66 percentage points
+Median difference: 6.83 percentage points
+
+Primary reported test: Wilcoxon signed-rank
+W-statistic: 0
+p-value: 1.78e-15
+Selected after finding evidence against normality.
+Its null concerns paired differences symmetric about zero.
+A median-shift interpretation requires symmetry, which was not established.
+
+Secondary analysis: originally planned paired t-test
+Approximate 95% mean-difference confidence interval: [6.51, 6.81] percentage points
+t-statistic: 90.976
+Degrees of freedom: 49
+p-value: 2.6e-56
+Paired effect size (dz): 12.866
+
+Shapiro-Wilk p-value for differences: 3.22e-05
+Review difference_checks.png alongside this normality check.
+A positive difference means level 9 produced smaller files.
+The inference assumes the sampled books provide independent pairs.
+Normality check flags a departure from normality. Discuss the plots and t-test robustness in the report.
